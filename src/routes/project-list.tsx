@@ -16,10 +16,14 @@ export default component$(() => {
             <h3 class="text-4xl sm:text-6xl font-semibold">CSX Mobile Banking</h3>
             <p class="text-lg">Redesign of the mobile banking experience</p>
             <Link class="text-lg text-blue-600" href="/csx-mobile-banking">View project</Link>
-            <img class="my-4" src="/images/csx-mobile-banking/csx-app.webp" alt="3 Screens of the final product"
+
+            <img class="my-4" src="/images/csx-mobile-banking/csx-app-lg.webp" alt="3 Screens of the final product"
                  width={800}
                  height={593}
-                 loading="lazy" decoding="async" />
+                 srcSet="/images/csx-mobile-banking/csx-app-sm.webp 800w, /images/csx-mobile-banking/csx-app-lg.webp 1600w"
+                 sizes="100vw"
+                 loading="lazy"
+                 decoding="async" />
           </div>
 
           <div className="flex flex-col sm:flex-row items-center">
