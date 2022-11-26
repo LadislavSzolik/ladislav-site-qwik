@@ -15,10 +15,10 @@ export default component$(() => {
             <img src="/images/logos/cs-logo.svg" alt="Credit Suisse logo" height="24" />
             <h3 class="text-4xl sm:text-6xl font-semibold">CSX Mobile Banking</h3>
             <p class="text-lg">Redesign of the mobile banking experience</p>
-            <Link class="text-lg text-blue-600" href="/docs">View project</Link>
+            <Link class="text-lg text-blue-600" href="/csx-mobile-banking">View project</Link>
             <img class="my-4" src="/images/csx-mobile-banking/csx-app.webp" alt="3 Screens of the final product"
-                 width="800"
-                 height="593"
+                 width={800}
+                 height={593}
                  loading="lazy" decoding="async" />
           </div>
 
@@ -30,8 +30,8 @@ export default component$(() => {
               <p class="text-lg text-blue-400">Coming soon...</p>
             </div>
             <img className="my-4 sm:my-0" src="/images/online-payments/payments.webp" alt="Payment entry screen"
-                 width="650"
-                 height="449"
+                 width={650}
+                 height={449}
                  loading="lazy" decoding="async" />
           </div>
 
@@ -43,8 +43,8 @@ export default component$(() => {
               <p className="text-lg text-blue-400">Coming soon...</p>
             </div>
             <img className="my-4 sm:my-0" src="/images/banking-design-system/design-system.webp" alt="Web design system in Sketch"
-                 width="650"
-                 height="548"
+                 width={650}
+                 height={548}
                  loading="lazy" decoding="async" />
           </div>
 
@@ -56,8 +56,8 @@ export default component$(() => {
               <p className="text-lg text-blue-400">Coming soon...</p>
             </div>
             <img className="my-4 sm:my-0" src="/images/greenwiperz/greenwiperz-app.webp" alt="Greenwiperz overview of the bookings"
-                 width="650"
-                 height="450"
+                 width={650}
+                 height={450}
                  loading="lazy" decoding="async" />
           </div>
 
@@ -69,8 +69,8 @@ export default component$(() => {
               <p className="text-lg text-blue-400">Coming soon...</p>
             </div>
             <img className="my-4 sm:my-0" src="/images/ooofer-partner/ooofer-partner.webp" alt="Web design system in Sketch"
-                 width="650"
-                 height="446"
+                 width={650}
+                 height={446}
                  loading="lazy" decoding="async" />
           </div>
 
@@ -79,8 +79,8 @@ export default component$(() => {
             <h3 className="text-4xl sm:text-6xl font-semibold">Digital illustrations</h3>
             <p className="text-lg">Illustrated 100 different sport throughout 100 days</p>
             <img className="mt-4 shadow-2xl rounded-2xl" src="/images/illustrations/drawings.webp" alt="3 Screens of the final product"
-                 width="800"
-                 height="593"
+                 width={800}
+                 height={593}
                  loading="lazy" decoding="async" />
           </div>
 
