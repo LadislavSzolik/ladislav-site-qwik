@@ -1,5 +1,5 @@
 import { component$ } from "@builder.io/qwik";
-import { DocumentHead, Link } from "@builder.io/qwik-city";
+import { DocumentHead } from "@builder.io/qwik-city";
 
 export default component$(() => {
   const activities = ["Wireframing", "Visual design (Sketch)", "Interaction design (Sketch)", "Prototyping (InVision, Origami Studio)", "Focus groups", "IT hand offs", "Usability testing", "Design thinking workshops", "Stakeholder management"];
@@ -7,7 +7,7 @@ export default component$(() => {
     <>
       <section class="px-5 py-14 text-center flex flex-col items-center bg-gradient-to-b from-cyan-200 to-sky-50">
         <div class="max-w-5xl mx-auto">
-          <Link href="/" class="text-blue-700">Back to home</Link>
+          <a href="/" class="text-blue-700 py-2 block">Back to home</a>
           <h1 class="text-5xl sm:text-7xl font-bold">CSX mobile banking</h1>
           <img className="mt-10 sm:mt-14" src="/images/csx-mobile-banking/csx-app-lg.webp"
                alt="3 Screens of the final product"

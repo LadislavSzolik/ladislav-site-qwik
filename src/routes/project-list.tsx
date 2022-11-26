@@ -1,5 +1,4 @@
 import { component$ } from "@builder.io/qwik";
-import { Link } from "@builder.io/qwik-city";
 
 
 export default component$(() => {
@@ -15,7 +14,7 @@ export default component$(() => {
             <img src="/images/logos/cs-logo.svg" alt="Credit Suisse logo" width="188" height="24" />
             <h3 class="text-4xl sm:text-6xl font-semibold">CSX Mobile Banking</h3>
             <p class="text-lg">Redesign of the mobile banking experience</p>
-            <Link class="text-lg text-blue-600" href="/csx-mobile-banking">View project</Link>
+            <a class="text-lg text-blue-600" href="/csx-mobile-banking/">View project</a>
 
             <img class="my-4" src="/images/csx-mobile-banking/csx-app-lg.webp" alt="3 Screens of the final product"
                  width={800}
@@ -91,7 +90,7 @@ export default component$(() => {
 
           <div className="flex flex-col items-center gap-2 sm:gap-4">
             <h3 className="text-4xl sm:text-6xl font-semibold">Digital illustrations</h3>
-            <p className="text-lg">Illustrated 100 different sport throughout 100 days</p>
+            <p className="text-lg text-center">Illustrated 100 different sport throughout 100 days</p>
             <img className="mt-4 shadow-2xl rounded-2xl" src="/images/illustrations/drawings.webp" alt="3 Screens of the final product"
                  width={800}
                  height={593}
