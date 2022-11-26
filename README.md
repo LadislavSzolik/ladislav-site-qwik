@@ -1,11 +1,6 @@
 # Qwik City App ⚡️
 
-- [Qwik Docs](https://qwik.builder.io/)
-- [Discord](https://qwik.builder.io/chat)
-- [Qwik GitHub](https://github.com/BuilderIO/qwik)
-- [@QwikDev](https://twitter.com/QwikDev)
-- [Vite](https://vitejs.dev/)
-
+https://imagekit.io/responsive-images/#chapter-10---how-to-verify-responsive-image-implementation
 ---
 
 ## Project Structure

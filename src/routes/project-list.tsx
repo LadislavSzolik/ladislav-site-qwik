@@ -12,7 +12,7 @@ export default component$(() => {
         <div class="py-14 sm:py-20 flex flex-col gap-24 sm:gap-32 ">
 
           <div class="flex flex-col items-center gap-2">
-            <img src="/images/logos/cs-logo.svg" alt="Credit Suisse logo" height="24" />
+            <img src="/images/logos/cs-logo.svg" alt="Credit Suisse logo" width="188" height="24" />
             <h3 class="text-4xl sm:text-6xl font-semibold">CSX Mobile Banking</h3>
             <p class="text-lg">Redesign of the mobile banking experience</p>
             <Link class="text-lg text-blue-600" href="/csx-mobile-banking">View project</Link>
@@ -28,12 +28,14 @@ export default component$(() => {
 
           <div className="flex flex-col sm:flex-row items-center">
             <div class="sm:pl-4 flex flex-col text-center sm:text-left items-center sm:items-start gap-2 sm:gap-5">
-              <img src="/images/logos/cs-logo.svg" alt="Credit Suisse logo" height="24" />
+              <img src="/images/logos/cs-logo.svg" alt="Credit Suisse logo" width="188" height="24" />
               <h3 className="text-4xl sm:text-6xl font-semibold">Online payments</h3>
               <p className="text-lg">Redesign of the payment entry for private and business clients</p>
-              <p class="text-lg text-blue-400">Coming soon...</p>
+              <p class="text-lg text-gray-500">Coming soon...</p>
             </div>
-            <img className="my-4 sm:my-0" src="/images/online-payments/payments.webp" alt="Payment entry screen"
+            <img className="my-4 sm:my-0" src="/images/online-payments/payments-sm.webp" alt="Payment entry screen"
+                 srcSet="/images/online-payments/payments-sm.webp 720w, /images/online-payments/payments-lg.webp 1300w"
+                 sizes="100vw"
                  width={650}
                  height={449}
                  loading="lazy" decoding="async" />
@@ -41,25 +43,30 @@ export default component$(() => {
 
           <div className="flex flex-col sm:flex-row-reverse items-center">
             <div className="sm:pl-8 flex flex-col text-center sm:text-left items-center sm:items-start gap-2 sm:gap-5">
-              <img src="/images/logos/cs-logo.svg" alt="Credit Suisse logo" height="24" />
+              <img src="/images/logos/cs-logo.svg" alt="Credit Suisse logo" width="188" height="24" />
               <h3 className="text-4xl sm:text-6xl font-semibold">Banking design system</h3>
               <p className="text-lg">Create design system for web and mobile banking</p>
-              <p className="text-lg text-blue-400">Coming soon...</p>
+              <p className="text-lg text-gray-500">Coming soon...</p>
             </div>
-            <img className="my-4 sm:my-0" src="/images/banking-design-system/design-system.webp" alt="Web design system in Sketch"
+            <img className="my-4 sm:my-0" src="/images/banking-design-system/design-system-sm.webp" alt="Web design system in Sketch"
                  width={650}
                  height={548}
+                 srcSet="/images/banking-design-system/design-system-sm.webp 720w, /images/banking-design-system/design-system-lg.webp 1300w"
+                 sizes="100vw"
                  loading="lazy" decoding="async" />
           </div>
 
           <div className="flex flex-col sm:flex-row items-center">
             <div className="sm:pl-4 flex flex-col text-center sm:text-left items-center sm:items-start gap-2 sm:gap-5">
-              <img src="/images/logos/greenwiperz-logo.svg" alt="Greenwiperz logo" height="24" />
+              <img src="/images/logos/greenwiperz-logo.svg" alt="Greenwiperz logo" width="117" height="24" />
               <h3 className="text-4xl sm:text-6xl font-semibold">Booking system</h3>
               <p className="text-lg">Design and develop an online car wash booking system with payments</p>
-              <p className="text-lg text-blue-400">Coming soon...</p>
+              <p className="text-lg text-gray-500">Coming soon...</p>
             </div>
-            <img className="my-4 sm:my-0" src="/images/greenwiperz/greenwiperz-app.webp" alt="Greenwiperz overview of the bookings"
+            <img className="my-4 sm:my-0" src="/images/greenwiperz/greenwiperz-app-lg.webp"
+                 alt="Greenwiperz overview of the bookings"
+                 srcSet="/images/greenwiperz/greenwiperz-app-sm.webp 800w, /images/greenwiperz/greenwiperz-app-lg.webp 1188w"
+                 sizes="100vw"
                  width={650}
                  height={450}
                  loading="lazy" decoding="async" />
@@ -67,12 +74,15 @@ export default component$(() => {
 
           <div className="flex flex-col sm:flex-row-reverse items-center">
             <div className="sm:pl-8 flex flex-col text-center sm:text-left items-center sm:items-start gap-2 sm:gap-5">
-              <img src="/images/logos/ooofer-logo.svg" alt="Ooofer logo" height="24" />
+              <img src="/images/logos/ooofer-logo.svg" alt="Ooofer logo" width="150" height="24" />
               <h3 className="text-4xl sm:text-6xl font-semibold">Partner platform</h3>
               <p className="text-lg">Design and develop a responsive web app for partners on-boarding</p>
-              <p className="text-lg text-blue-400">Coming soon...</p>
+              <p className="text-lg text-gray-500">Coming soon...</p>
             </div>
-            <img className="my-4 sm:my-0" src="/images/ooofer-partner/ooofer-partner.webp" alt="Web design system in Sketch"
+            <img className="my-4 sm:my-0" src="/images/ooofer-partner/ooofer-partner-lg.webp"
+                 alt="Ooofer partner platform"
+                 srcSet="/images/ooofer-partner/ooofer-partner-sm.webp 720w, /images/ooofer-partner/ooofer-partner-lg.webp 1300w"
+                 sizes="100vw"
                  width={650}
                  height={446}
                  loading="lazy" decoding="async" />
